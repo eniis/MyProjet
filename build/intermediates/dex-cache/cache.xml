@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Mohamed\AndroidStudioProjects\MyProjet\app\libs\volley.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\Mohamed\AndroidStudioProjects\MyProjet\app\build\intermediates\pre-dexed\debug\volley-5a7d2e5180761826c9f33bac33a4b46b35450f97.jar" />
+    </item>
+
+</items>

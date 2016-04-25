@@ -1,0 +1,63 @@
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:descendantFocusability="beforeDescendants">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="15dp"
+        android:descendantFocusability="afterDescendants"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"
+            android:paddingTop="15dp"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/imghh"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="5dp"
+            android:background="@mipmap/bghh"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imgaime"
+            android:paddingLeft="5dp"
+            android:src="@mipmap/img_aime"/>
+
+        <TextView
+            android:id="@+id/tvaime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:layout_below="@id/imghh"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvadr"
+            android:paddingLeft="5dp"
+            android:textSize="12dp"
+            android:paddingBottom="5dp"/>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
